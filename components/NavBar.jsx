@@ -1,14 +1,20 @@
 import React from "react";
-
+import Link from "next/link";
 export default function NavBar() {
   return (
     <nav>
       <div>
-        <a href="#">Coder Wiki</a>
+        <Link href="/">
+          <a>Coder Wiki</a>
+        </Link>
       </div>
       <div>
-        <a href="#">About</a>
-        <a href="#">All Coders</a>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/coders">
+          <a>All Coders</a>
+        </Link>
       </div>
     </nav>
   );
