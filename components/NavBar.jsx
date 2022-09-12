@@ -15,6 +15,9 @@ export default function NavBar() {
         <Link href="/coders">
           <a>All Coders</a>
         </Link>
+        <Link href="/counter">
+          <a>Count</a>
+        </Link>
       </div>
     </nav>
   );
