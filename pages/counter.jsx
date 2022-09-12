@@ -10,6 +10,7 @@ export default function counter() {
     <div className="counter">
       <h2>counter: {value}</h2>
       <button
+        className="btn btn-success"
         onClick={() => {
           const action = {
             type: "counterReducer/increment",
@@ -23,6 +24,7 @@ export default function counter() {
         +
       </button>
       <button
+        className="btn btn-danger"
         onClick={() => {
           const action = {
             type: "counterReducer/decrement",

@@ -15,10 +15,27 @@ export default function NavBar() {
         <Link href="/coders">
           <a>All Coders</a>
         </Link>
+        <Link href="/blogs">
+          <a>Blogs</a>
+        </Link>
         <Link href="/counter">
           <a>Count</a>
         </Link>
       </div>
     </nav>
+    // <nav className="nav justify-content-between">
+    //   <Link href="/">
+    //     <a className="nav-link active">Coder Wiki</a>
+    //   </Link>
+    //   <Link href="/about">
+    //     <a className="nav-link">About</a>
+    //   </Link>
+    //   <Link href="/coders">
+    //     <a className="nav-link">All Coders</a>
+    //   </Link>
+    //   <Link href="/counter">
+    //     <a className="nav-link">Count</a>
+    //   </Link>
+    // </nav>
   );
 }

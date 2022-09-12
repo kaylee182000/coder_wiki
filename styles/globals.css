@@ -6,8 +6,12 @@ body {
   font-family: "Numito";
 }
 a {
+  font-size: 20px;
   color: #777;
   text-decoration: none;
+}
+a:hover{
+  color: #1a1a1a;
 }
 .content {
   max-width: 960px;
