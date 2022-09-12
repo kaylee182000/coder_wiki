@@ -39,3 +39,9 @@ footer {
   color: #1a1a1a;
   text-decoration: underline;
 }
+.counter h2{
+  color: #333;
+}
+.counter button {
+  margin: 5px;
+}

@@ -7,7 +7,7 @@ export default function counter() {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className="counter">
       <h2>counter: {value}</h2>
       <button
         onClick={() => {
