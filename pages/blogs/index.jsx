@@ -16,13 +16,17 @@ export default function AllBlogs() {
   }, []);
 
   const renderBlog = () => {
-    return arrBlog.map((blog) => {
+    return arrBlog?.map((blog) => {
       return (
         <div className="col-4 mt-4" key={blog.id}>
           <div className="card" style={{ width: "18rem", height: "450px" }}>
-            <img src={`https://picsum.photos/id/${blog.userId}/300/300`} className="card-img-top" alt="..." />
+            <img
+              src={`https://picsum.photos/id/${blog.userId}/300/300`}
+              className="card-img-top"
+              alt="..."
+            />
             <div className="card-body">
-              <h5 className="card-title">{blog.title}</h5>
+              <h5 className="card-title text-uppercase text-center text-dark">{blog.title}</h5>
             </div>
           </div>
         </div>
@@ -31,7 +35,7 @@ export default function AllBlogs() {
   };
   return (
     <div>
-      <h1>Blog</h1>
+      <h1 className="text-center">Blog</h1>
       <div className="row">{renderBlog()}</div>
     </div>
   );
