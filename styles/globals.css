@@ -6,7 +6,7 @@ body {
   font-family: "Numito";
 }
 a {
-  color: #333;
+  color: #777;
   text-decoration: none;
 }
 .content {
@@ -31,4 +31,11 @@ footer {
   margin-top: 60px;
   color: #777;
   border-top: 1px solid #ddd;
+}
+.not-found {
+  text-align: center;
+}
+.not-found a {
+  color: #1a1a1a;
+  text-decoration: underline;
 }

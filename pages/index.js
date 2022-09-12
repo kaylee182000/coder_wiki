@@ -5,6 +5,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Coder Wiki | Home</title>
+        <meta name="keywords" content="coders" />
+      </Head>
       <div>
         <h1 className={styles.title}>Home Page</h1>
         <p className={styles.text}>
